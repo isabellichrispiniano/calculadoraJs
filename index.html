@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <form action="#" method="post">
+            <h1>Calculadora</h1>
+            <label for="value">Digite um número</label>
+            <input type="number" class="num">
+            <label for="value">Digite outro número</label>
+            <input type="number" class="num2">
+            <label for="number">Escolha uma equação matemática</label>
+            <select name="escolha" id="escolha">
+                <optgroup>
+                    <option value="soma">Soma</option>
+                    <option value="Mult">Multiplicação</option>
+                    <option value="sub">Subtração</option>
+                    <option value="Divisão">Divisão</option>
+                </optgroup>
+            </select>
+            <input type="button" value="Obter o resultado" class="button" onclick="teste()">
+            <label for="value">Resultado</label>
+            <p class="result"></p>
+        </form>
+    </main>
+</body>
+</html>
